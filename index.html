@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KarigarSetu - Artisan Marketplace</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h2>Karigar<span>Setu</span></h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#artisans">Artisans</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>From the Artisan's Hands to Your Home</h1>
+    <p>Discover beautiful handmade products and support local artisans.</p>
+    <a href="#products" class="btn">Explore Products</a>
+  </section>
+
+  <section id="products">
+    <h2>Our Handicrafts</h2>
+    <div class="products">
+      <div class="card">
+        <div class="emoji">🏺</div>
+        <h3>Handmade Pottery</h3>
+        <p>Traditional clay crafts</p>
+        <h4>₹450</h4>
+        <button onclick="addCart('Handmade Pottery')">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <div class="emoji">👜</div>
+        <h3>Handwoven Bags</h3>
+        <p>Made by local artisans</p>
+        <h4>₹650</h4>
+        <button onclick="addCart('Handwoven Bags')">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <div class="emoji">📿</div>
+        <h3>Handmade Jewellery</h3>
+        <p>Unique traditional designs</p>
+        <h4>₹350</h4>
+        <button onclick="addCart('Handmade Jewellery')">Add to Cart</button>
+      </div>
+
+      <div class="card">
+        <div class="emoji">🪔</div>
+        <h3>Decorative Diyas</h3>
+        <p>Handcrafted home decor</p>
+        <h4>₹300</h4>
+        <button onclick="addCart('Decorative Diyas')">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="artisans">
+    <h2>Meet Our Artisans</h2>
+    <p>We connect skilled local artisans with customers and celebrate India's rich craft traditions.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Support Local Artisans</h2>
+    <p>Every handmade product tells a beautiful story.</p>
+  </section>
+
+  <footer>
+    <p>© 2026 KarigarSetu | Handmade with Heart</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
